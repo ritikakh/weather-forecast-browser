@@ -49,6 +49,7 @@ class WeatherList extends Component {
     }
 }
 
+//destructuring state.weather to {weather}
 function mapStateToProps({ weather }) {
     return { weather }; //weather:weather ES6 //weather: state.weather
 }
